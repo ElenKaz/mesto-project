@@ -12,10 +12,7 @@
   line-height: 17px;
   color: #000000;
   transition: 0.2s ease;
-}
-
-.popup__input:hover {
-  opacity: 0.5;
+  outline: none;
 }
 
 @media screen and (max-width: 600px) {
