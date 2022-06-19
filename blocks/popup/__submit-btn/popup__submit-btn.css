@@ -4,7 +4,7 @@
   background-color: #000000;
   color: #ffffff;
   padding: 0;
-  margin: 15px 0;
+  margin: 0;
   border: none;
   border-radius: 2px;
   cursor: pointer;
@@ -20,7 +20,8 @@
 @media screen and (max-width: 600px) {
   .popup__submit-btn {
       width: 100%;
-      margin-bottom: 0;
+      height: 46px;
+      margin: 0;
       font-size: 14px;
       line-height: 17px;
   }

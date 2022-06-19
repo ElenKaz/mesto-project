@@ -1,27 +1,26 @@
 .popup__closed {
   width: 32px;
   height: 32px;
-  position: absolute;
-  right: -40px;
-  padding: 0;
-  top: -40px;
+  padding: 0;  
   border: none;
   background: url('../../../images/close-button.svg') center no-repeat;
-  background-size: 32px 32px;
-  cursor: pointer;
+  background-size: contain;  
   transition: 0.3s;
+
+  align-self: flex-end;
+  margin: 0 -40px 8px 0;
 }
 
 .popup__closed:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 
-@media screen and (max-width: 375px) {
-  .popup__closed {
-    left: 260px;
-    top: -35px;
+@media screen and (max-width: 600px) {
+  .popup__closed {    
     width: 20px;
     height: 20px;
+    margin: 0 0 16px 0;
   }
 }
